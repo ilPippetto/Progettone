@@ -5,17 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
-
   <link rel="stylesheet" href="style.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" integrity="sha512-ztsAq/T5Mif7onFaDEa5wsi2yyDn5ygdVwSSQ4iok5BPJQGYz1CoXWZSA7OgwGWrxrSrbF0K85PD5uLpimu4eQ==" crossorigin="anonymous" />
-
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
-
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
 
 </head>
 <body>
@@ -25,9 +20,9 @@
       <img src="logo.png" alt="">
     </div>
     <ul class="menu">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="single.html">Single</a></li>
-      <li><a href="">Contact</a></li>
+      <li ><a href="index.html" class="active">Home</a></li>
+      <li><a href="marte.html">Marte</a></li>
+      <li><a href="luna.html">Luna</a></li>
     </ul>
     <div class="cta">
       <a href="" class="button"> Contatti</a>
@@ -41,25 +36,35 @@
 
   <div class="hero">
     <div class="hero__content reveal">
-      <p class="intro-text">Intro Text</p>
-      <h1 class="big-text">Titolo della mia Pagina Web</h1>
+      
+      <h1 class="big-text">Univers explorer</h1>
+      <p class="intro-text">"Man must understand his Universe in order to understand his destiny." (Neil Amstrong)</p>
       <a href="" class="button">Discover More</a>
     </div>
     <video autoplay muted loop id="video-back">
-      <source src="video-back.mp4" type="video/mp4">
+      <source src="stelle.mp4" type="video/mp4">
     </video>
   </div>
 
 
 
   <div class="poster mt-3">
-    <div class="poster__img reveal">
-      <img src="bg-video.png" alt="">
+    <div class="poster__img reveal carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "fullscreen": true, "lazyLoad": 1, "wrapAround": true}'>
+      <div class="carousel-cell2">
+        <img data-flickity-lazyload="marte.jpg" />
+      </div>
+      <div class="carousel-cell2">
+        <img data-flickity-lazyload="marte2.jpg" />
+      </div>
+      <div class="carousel-cell2">
+        <img data-flickity-lazyload="marte3.jpg" />
+      </div>
     </div>
+
     <div class="poster__content reveal">
-      <h3 class="big-text">Titolo della mia poster</h3>
+      <h3 class="big-text">Marte</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate magnam iste, quis hic ipsam laboriosam ab quos molestias impedit. Debitis quas molestias voluptates consectetur blanditiis aut deserunt, odit laboriosam.</p>
-      <a href="" class="button"> Call to action</a>
+      <a href="" class="button"> Scopri di più</a>
     </div>
   </div>
 
@@ -199,6 +204,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous"></script>
+  
+  <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
 
   <script>
   $( document ).ready(function() {

@@ -1,6 +1,6 @@
 /* ! Base Style */
 
-body{font-family: 'Inter', sans-serif;font-size: 16px;}
+body{font-family: 'Roboto', sans-serif;font-size: 16px;}
 
 a{text-decoration: none;}
 
@@ -8,14 +8,46 @@ h1, h2, h3, h4, h5, p{color:#000; padding-bottom: 30px;}
 
 p{line-height: 28px; color:#666; font-weight: 300;}
 
+.menu li a:hover{ 
+  color: white;
+  opacity: 1;
+}
+
+li, a{
+  position: relative;
+}
+
+.menu li a:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+.menu li a::after{
+  position: absolute;
+  bottom: 0;
+  content: '';
+  display: block;
+  background-color: currentColor;
+  transition: width .3s;
+  width: .001%;
+  border-radius: 2px;
+  height: 2px;
+  left: 0;
+}
+
+.active{
+  color: white !important;
+  opacity: 1 !important;
+}
+
 .big-text{font-size: 70px;font-weight: 900;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
 
-.intro-text{text-transform: uppercase;font-size: 20px;font-weight: bold;}
+.intro-text{font-size: 20px; font-style:italic}
 
-.button{padding: 18px 28px; background: #316bff; color:#fff; display: inline-block;border-radius: 4px}
+.button{padding: 18px 28px; background: #000080; color:#fff; display: inline-block;border-radius: 4px}
 
 @media (max-width: 768px) {
 
@@ -39,7 +71,12 @@ p{line-height: 28px; color:#666; font-weight: 300;}
   max-width: 1350px;
 }
 
-.logo{z-index: 1}
+.logo img{
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  
+}
 
 .menu{
   transition: all 1s cubic-bezier(.215, .61, .355, 1);
@@ -48,7 +85,12 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 }
 
 .menu li{display: inline-block;}
-.menu li a{color: #fff;padding: 15px;display: block;}
+.menu li a{
+  color: #fff;
+  opacity: 0.5;
+  padding: 15px;
+  display: block;
+}
 
 .hamburger{display: none;}
 
@@ -109,7 +151,7 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 .hero__content h1,
 .hero__content p{color: #fff;}
 
-.hero--small{height: 450px;text-align: center;}
+.hero--small{height: 600px;text-align: center;}
 
 
 #video-back{
@@ -190,6 +232,29 @@ p{line-height: 28px; color:#666; font-weight: 300;}
   text-align: center;
 }
 
+/* Carousel-cell img */
+
+.carousel-cell2 {
+  width: 100%;  /*full width*/ 
+  height: 100%;
+  background: #222;
+  /* center images in cells with flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+  
+}
+
+.carousel-cell img {
+  display: block;
+  max-height: 100%;
+  
+}
 /* Panel Blue */
 
 .panel-blue{background: #4bb1e9;padding: 100px 30px;}
