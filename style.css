@@ -259,7 +259,7 @@ li, a{
 }
 /* Panel Blue */
 
-.panel-blue{background: #4bb1e9;padding: 100px 30px;}
+.panel-blue{background: #4bb1e9; padding: 100px 30px;}
 .panel-blue__text{display: flex;align-items: center;}
 .dot{
   height: 250px;width: 250px;
