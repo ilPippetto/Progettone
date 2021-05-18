@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Luna</title>
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" integrity="sha512-ztsAq/T5Mif7onFaDEa5wsi2yyDn5ygdVwSSQ4iok5BPJQGYz1CoXWZSA7OgwGWrxrSrbF0K85PD5uLpimu4eQ==" crossorigin="anonymous" />
@@ -14,8 +13,10 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
 </head>
 </head>
+
 <body>
 
+<!-- MENU -->
   <div class="header">
     <div class="logo">
       <img src="logo.png" alt="">
@@ -35,83 +36,66 @@
     </div>
   </div>
 
+<!-- HOME -->
   <div class="hero hero--small">
     <div class="hero__content reveal">
-      <p class="intro-text">Intro Text</p>
-      <h1 class="big-text">Viaggi sulla Luna</h1>
+      <h1 class="big-text">Apollo 11</h1>
+      <p class="intro-text">“Questo è solo un piccolo passo per un uomo, ma un balzo gigantesco per l'umanità.”</p>
     </div>
     <video autoplay muted loop id="video-back">
-        <source src="marte.mp4" type="video/mp4">
+        <source src="luna.mp4" type="video/mp4">
     </video>
   </div>
 
-
+  <!-- PRIMA PAGINA -->
   <div class="bg-cover mt-3">
     <div class="bg-cover__title reveal">
-      <h3 class="big-text tw">Titolo del mio blocco cover</h3>
+      <h3 class="big-text tw">Esplorazione</h3>
     </div>
     <div class="bg-cover__text reveal">
+      <h4 class="normal-text tw">Missione</h4>
+      <p class="tw">Apollo 11 fu la missione spaziale che portò i primi uomini sulla Luna, gli astronauti statunitensi Neil Armstrong e Buzz Aldrin, il 20 luglio 1969 alle 20:17:40 UTC. Armstrong fu il primo a mettere piede sul suolo lunare e dopo arrivò anche Aldrin.</p>
 
-      <h4 class="normal-text tw">Titolo del mio paragrafo</h4>
-      <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias dolor, vel provident a est hic cupiditate ea. Eveniet quod distinctio asperiores ullam dignissimos nulla illum impedit enim aliquid ratione.</p>
+      <p class="tw">I due trascorsero circa due ore e mezza al di fuori della navicella, e raccolsero 21,5 kg di materiale lunare che riportarono a Terra.</p>
 
-      <h4 class="normal-text tw">Titolo del mio paragrafo</h4>
-      <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias dolor, vel provident a est hic cupiditate ea. Eveniet quod distinctio asperiores ullam dignissimos nulla illum impedit enim aliquid ratione.</p>
-
-      <h4 class="normal-text tw">Titolo del mio paragrafo</h4>
-      <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt molestias dolor, vel provident a est hic cupiditate ea. Eveniet quod distinctio asperiores ullam dignissimos nulla illum impedit enim aliquid ratione.</p>
-
+      <p class="tw">Il terzo membro della missione, Michael Collins (pilota del modulo di comando), rimase in orbita lunare mentre gli altri due erano sulla superficie; dopo 21,5 ore dall'allunaggio, gli astronauti si riunirono e Collins pilotò il modulo di comando Columbia nella traiettoria di ritorno sulla Terra. La missione terminò il 24 luglio, con l'ammaraggio nell'Oceano Pacifico.</p>
     </div>
   </div>
 
-  <div class="grid mt-3">
+  <!-- ASTRONAUTI -->
+  
+<div class="bgim">
+<div class="bw"></div>
+
+<div class="grid mt-3">
     <div class="col reveal">
-      <h3 class="big-text">Lorem ispums <br/> sia maet</h3>
+      <h3 class="big-text">ASTRONAUTI</h3>
     </div>
     <div class="col reveal">
-      <p class="mt-2 mt-sma-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum tenetur sunt unde ut ducimus, fuga quia magni non reiciendis optio. Facilis accusamus vero quo, facere. Soluta molestiae inventore, sit rem!</p>
+      <p class="mt-2 mt-sma-0">Gli astronauti dell'Apollo 11 furono Neil Armstrong (comandante), Michael Collins (Pilota del modulo di comando), Buzz Aldrin (Pilota del modulo lunare)</p>
     </div>
   </div>
-
-
-
   <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
     <div class="carousel-cell">
-      <div class="carousel-cell__content zoom">
-        text
+      <div class="carousel-cell__content zoom" style="background: url(NeilArmstrong.jpg) no-repeat center center; background-size: cover;">
+    </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom" style="background: url(MichaelCollins.jpg) no-repeat center center; background-size: cover;">
       </div>
     </div>
     <div class="carousel-cell">
-      <div class="carousel-cell__content zoom">
-        text
+      <div class="carousel-cell__content zoom" style="background: url(BuzzAldrin.jpg) no-repeat center center; background-size: cover;">
       </div>
     </div>
     <div class="carousel-cell">
-      <div class="carousel-cell__content zoom">
-        text
+      <div class="carousel-cell__content zoom" style="background: url(Apollo11Crew.jpg) no-repeat center center; background-size: cover;">
       </div>
     </div>
-    <div class="carousel-cell">
-      <div class="carousel-cell__content zoom">
-        text
-      </div>
-    </div>
-    <div class="carousel-cell">
-      <div class="carousel-cell__content zoom">
-        text
-      </div>
-    </div>
-    <div class="carousel-cell">
-      <div class="carousel-cell__content">
-        text
-      </div>
-    </div>
-
   </div>
-
+</div>
 
   <div class="poster mt-3">
-
     <div class="poster__content reveal">
       <h3 class="big-text">Titolo della mia poster</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate magnam iste, quis hic ipsam laboriosam ab quos molestias impedit. Debitis quas molestias voluptates consectetur blanditiis aut deserunt, odit laboriosam.</p>
@@ -121,11 +105,9 @@
     <div class="poster__img  reveal">
       <img src="bg-video.png" alt="">
     </div>
-
   </div>
 
   <div class="panel-blue mt-3">
-
     <div class="grid">
       <div class="col panel-blue__dots">
         <div class="dot zoom" style="background: url(bg-video.png) no-repeat center center; background-size: cover;"> text </div>
@@ -147,9 +129,7 @@
 
   </div>
 
-
-
-
+<!-- FOOTER -->
   <footer class="footer">
     <div class="grid">
       <div class="col reveal">
@@ -170,14 +150,6 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
-
-
-
 
 
   <!-- Jquery -->
