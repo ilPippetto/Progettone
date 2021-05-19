@@ -192,11 +192,11 @@ li, a{
   display: flex;
   padding: 100px 0;
   background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7)),
-   url('lunabg.jpg') no-repeat center center;
+   url('IL//lunabg.jpg') no-repeat center center;
   background-size: cover;
 }
 
-.bgim{background-image: url(sfondopallozzi.jpg);}
+.bgim{background-image: url(altro//sfondopallozzi.jpg);}
 .bg-cover__text{width: 50%;padding: 30px;}
 .bg-cover__title{width: 50%;padding: 50px;display: flex;align-items: center;}
 
@@ -259,7 +259,7 @@ li, a{
 }
 /* Panel Blue */
 
-.panel-blue{background-image: url(sfondogalassia.jpg); padding: 100px 30px;}
+.panel-blue{background-image: url(altro//sfondogalassia.jpg); padding: 100px 30px;}
 .panel-blue__text{display: flex;align-items: center;}
 .dot{
   height: 250px;width: 250px;
