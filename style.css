@@ -37,6 +37,43 @@ li, a{
   left: 0;
 }
 
+.submenu {
+  
+  width: 300px;
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  transition: .3s ease-in-out;
+  box-shadow: 0 2px 0 0 #ECF1F2;
+  left: calc(100% - 1px);
+  left: -webkit-calc(100% - 1px);
+}
+
+.submenu li {
+  position: relative;
+}
+
+.submenu li a {
+  display: block;
+  text-decoration: white;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  transition: .3s ease-in-out;
+  }
+  
+  li:hover > .submenu {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  }
+
 .active{
   color: white !important;
   opacity: 1 !important;
