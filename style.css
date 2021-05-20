@@ -46,8 +46,6 @@ li, a{
   -ms-transform: translateY(10px);
   transform: translateY(10px);
   box-shadow: 0 2px 0 0 #ECF1F2;
-  left: calc(100% - 1px);
-  left: -webkit-calc(100% - 1px);
 }
 
 .submenu li {
