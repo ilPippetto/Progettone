@@ -46,7 +46,6 @@ li, a{
   -webkit-transform: translateY(10px);
   -ms-transform: translateY(10px);
   transform: translateY(10px);
-  transition: .3s ease-in-out;
   box-shadow: 0 2px 0 0 #ECF1F2;
   left: calc(100% - 1px);
   left: -webkit-calc(100% - 1px);
@@ -63,7 +62,6 @@ li, a{
   font-size: 14px;
   letter-spacing: 1px;
   padding: 10px 20px;
-  transition: .3s ease-in-out;
   }
   
   li:hover > .submenu {
