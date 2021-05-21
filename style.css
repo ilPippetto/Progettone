@@ -119,6 +119,13 @@ li, a{
   
 }
 
+.logo-marte img{
+  z-index: 1;
+  width: 70px;
+  height: 75px;
+  
+}
+
 .menu{
   transition: all 1s cubic-bezier(.215, .61, .355, 1);
   width: 100%;

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Marte 2020</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" integrity="sha512-ztsAq/T5Mif7onFaDEa5wsi2yyDn5ygdVwSSQ4iok5BPJQGYz1CoXWZSA7OgwGWrxrSrbF0K85PD5uLpimu4eQ==" crossorigin="anonymous" />
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+</head>
+</head>
+
+<body>
+
+<!-- MENU -->
+  <div class="header">
+    <div class="logo-marte">
+      <img src="IM//marte.png" alt="">
+    </div>
+    <ul class="menu">
+        <li >
+          <a href="index.html" class="normal-text">Home</a>
+        </li>
+        <li><a href="marte.html" class="active normal-text">Marte</a>
+          <ul class="submenu">
+            <li><a href="marte2020.html">Marte 2020</a></li>
+          </ul>
+        </li>
+        <li><a href="luna.html" class="normal-text">Luna</a>
+          <ul class="submenu">
+            <li><a href="apollo_11.html">apollo 11</a></li>
+          </ul>
+        </li>
+    </ul>
+    <div class="cta">
+      <a href="" class="button"> Contatti</a>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+<!-- HOME -->
+  <div class="hero hero--small">
+    <div class="hero__content reveal">
+      <h1 class="big-text">Marte 2020</h1>
+      <p class="intro-text">“Questo è solo un piccolo passo per un uomo, ma un balzo gigantesco per l'umanità.”</p>
+    </div>
+    <video autoplay muted loop id="video-back">
+        <source src="CV//luna.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="bg-cover-jfk mt-3">
+    <div class="bg-cover__title reveal">
+      <h3 class="big-text tw">Discorso di Kennedy</h3>
+    </div>
+    <div class="bg-cover__text reveal">
+      <p class="tw">"Scegliamo di andare sulla Luna! Scegliamo di andare sulla Luna... Scegliamo di andare sulla Luna in questo decennio e di fare le altre cose, non perché sono facili, ma perché sono difficili; perché quell'obiettivo servirà ad organizzare e misurare il meglio delle nostre energie e abilità, perché quella è una sfida che siamo disposti ad accettare, una che non siamo disposti a posticipare e una che intendiamo vincere" J.F.K</p>
+    </div>
+  </div>
+
+  <!-- PRIMA PAGINA -->
+  <div class="bg-cover mt-3">
+    <div class="bg-cover__title reveal">
+      <h3 class="big-text tw">Esplorazione</h3>
+    </div>
+    <div class="bg-cover__text reveal">
+      <h4 class="normal-text tw">Missione</h4>
+      <p class="tw">Apollo 11 fu la missione spaziale che portò i primi uomini sulla Luna, gli astronauti statunitensi Neil Armstrong e Buzz Aldrin, il 20 luglio 1969 alle 20:17:40 UTC. Armstrong fu il primo a mettere piede sul suolo lunare e dopo arrivò anche Aldrin.</p>
+
+      <p class="tw">I due trascorsero circa due ore e mezza al di fuori della navicella, e raccolsero 21,5 kg di materiale lunare che riportarono a Terra.</p>
+
+      <p class="tw">Il terzo membro della missione, Michael Collins (pilota del modulo di comando), rimase in orbita lunare mentre gli altri due erano sulla superficie; dopo 21,5 ore dall'allunaggio, gli astronauti si riunirono e Collins pilotò il modulo di comando Columbia nella traiettoria di ritorno sulla Terra. La missione terminò il 24 luglio, con l'ammaraggio nell'Oceano Pacifico.</p>
+    </div>
+  </div>
+
+  <!-- ASTRONAUTI -->
+  
+<div class="bgim">
+<div class="bw"></div>
+
+<div class="grid mt-3">
+    <div class="col reveal">
+      <h3 class="big-text">ASTRONAUTI</h3>
+    </div>
+    <div class="col reveal">
+      <p class="mt-2 mt-sma-0">Gli astronauti dell'Apollo 11 furono Neil Armstrong (comandante), Michael Collins (Pilota del modulo di comando), Buzz Aldrin (Pilota del modulo lunare)</p>
+    </div>
+  </div>
+  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": "true" }'>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom" style="background: url(IL//NeilArmstrong.jpg) no-repeat center center; background-size: cover;">
+    </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom" style="background: url(IL//MichaelCollins.jpg) no-repeat center center; background-size: cover;">
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom" style="background: url(IL//BuzzAldrin.jpg) no-repeat center center; background-size: cover;">
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content zoom" style="background: url(IL//Apollo11Crew.jpg) no-repeat center center; background-size: cover;">
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content" style="background: url(IL//razzoapollo11.jpg) no-repeat center center; background-size: cover;">
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content" style="background: url(IL//AldrinApollo11.jpg) no-repeat center center; background-size: cover;">
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content" style="background: url(IL//nasa-navicella.jpg) no-repeat center center; background-size: cover;">
+      </div>
+    </div>
+    <div class="carousel-cell">
+      <div class="carousel-cell__content" style="background: url(IL//astro-luna.jpg) no-repeat center center; background-size: cover;">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="panel-blue mt-3">
+    <div class="grid">
+      <div class="col panel-blue__dots">
+        <div class="dot zoom" style="background: url(IL//camminata1.jpg) no-repeat center center; background-size: cover;"></div>
+        <div class="dot zoom" style="background: url(IL//camminata2.jpg) no-repeat center center; background-size: cover;"></div>
+        <div class="dot zoom" style="background: url(IL//camminata3.jpg) no-repeat center center; background-size: cover;"></div>
+        <div class="dot zoom" style="background: url(IL//improntaaldrin.jpg) no-repeat center center; background-size: cover;"></div>
+        <div class="dot zoom" style="background: url(IL//terraluna.jpg) no-repeat center center; background-size: cover;"></div>
+        <div class="dot zoom" style="background: url(IL//astro-luna.jpg) no-repeat center center; background-size: cover;"></div>
+      </div>
+      <div class="col panel-blue__text">
+        <div class="grid">
+          <div class="col reveal">
+            <h3 class="big-text tw"> Camminata Lunare</h3>
+            <p class="tw mt-2 mt-sma-0 p-j">
+              Dopo aver messo piede sulla Luna e aver effettuato la prima passeggiata lunare della storia, gli astronauti utilizzarono lo stadio di ascesa di Eagle per lasciare la superficie e ricongiungersi a Collins sul modulo di comando. Sganciarono, quindi, Eagle prima di effettuare le manovre che li avrebbero portati fuori dall'orbita lunare verso una traiettoria in direzione della Terra dove ammararono nell'Oceano Pacifico il 24 luglio dopo più di otto giorni nello spazio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-cover-jfk mt-3">
+    <div class="bg-cover__title reveal">
+      <h3 class="big-text tw">Discorso di Kennedy</h3>
+    </div>
+    <div class="bg-cover__text reveal">
+      <p class="tw">"Scegliamo di andare sulla Luna! Scegliamo di andare sulla Luna... Scegliamo di andare sulla Luna in questo decennio e di fare le altre cose, non perché sono facili, ma perché sono difficili; perché quell'obiettivo servirà ad organizzare e misurare il meglio delle nostre energie e abilità, perché quella è una sfida che siamo disposti ad accettare, una che non siamo disposti a posticipare e una che intendiamo vincere" J.F.K</p>
+    </div>
+  </div>
+
+<!-- FOOTER -->
+  <footer class="footer">
+    <div class="grid">
+      <div class="col reveal">
+        <h4 class="normal-text tw">Lorem ispum</h4>
+        <p>Lorme ispum dos aia sm</p>
+      </div>
+      <div class="col reveal">
+        <h4 class="normal-text tw">Lorem ispum</h4>
+        <p>Lorme ispum dos aia sm</p>
+      </div>
+      <div class="col reveal">
+        <h4 class="normal-text tw">Lorem ispum</h4>
+        <p>Lorme ispum dos aia sm</p>
+      </div>
+      <div class="col reveal">
+        <h4 class="normal-text tw">Lorem ispum</h4>
+        <p>Lorme ispum dos aia sm</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous"></script>
+  
+  <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+
+  <script>
+  $( document ).ready(function() {
+
+    /* Open Panel */
+    $( ".hamburger" ).on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+
+  });
+
+
+  ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+  ScrollReveal().reveal('.zoom',  { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
+
+
+
+</script>
+
+
+</body>
+</html>
