@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Marte 2020</title>
+  <title>Apollo 17</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" integrity="sha512-ztsAq/T5Mif7onFaDEa5wsi2yyDn5ygdVwSSQ4iok5BPJQGYz1CoXWZSA7OgwGWrxrSrbF0K85PD5uLpimu4eQ==" crossorigin="anonymous" />
@@ -18,19 +18,19 @@
 
 <!-- MENU -->
   <div class="header">
-    <div class="logo-marte">
-      <img src="IM//marte.png" alt="">
+    <div class="logo-apollo">
+      <img src="IL/logoapollo.png" alt="">
     </div>
     <ul class="menu">
         <li >
           <a href="index.html" class="normal-text">Home</a>
         </li>
-        <li><a href="marte.html" class="active normal-text">Marte</a>
+        <li><a href="marte.html" class="normal-text">Marte</a>
           <ul class="submenu">
             <li><a href="marte2020.html">Marte 2020</a></li>
           </ul>
         </li>
-        <li><a href="luna.html" class="normal-text">Luna</a>
+        <li><a href="luna.html" class=" active normal-text">Luna</a>
           <ul class="submenu">
             <li><a href="apollo-11.html">apollo 11</a></li>
             <li><a href="apollo-17.html">apollo 17</a></li>
@@ -50,7 +50,7 @@
 <!-- HOME -->
   <div class="hero hero--small">
     <div class="hero__content reveal">
-      <h1 class="big-text">Marte 2020</h1>
+      <h1 class="big-text">Apollo 11</h1>
       <p class="intro-text">“Questo è solo un piccolo passo per un uomo, ma un balzo gigantesco per l'umanità.”</p>
     </div>
     <video autoplay muted loop id="video-back">
@@ -58,6 +58,7 @@
     </video>
   </div>
 
+  <!-- DISCORSO KENNEDY -->
   <div class="bg-cover-jfk mt-3">
     <div class="bg-cover__title reveal">
       <h3 class="big-text tw">Discorso di Kennedy</h3>
@@ -154,14 +155,18 @@
     </div>
   </div>
 
-  <div class="bg-cover-jfk mt-3">
-    <div class="bg-cover__title reveal">
-      <h3 class="big-text tw">Discorso di Kennedy</h3>
-    </div>
-    <div class="bg-cover__text reveal">
-      <p class="tw">"Scegliamo di andare sulla Luna! Scegliamo di andare sulla Luna... Scegliamo di andare sulla Luna in questo decennio e di fare le altre cose, non perché sono facili, ma perché sono difficili; perché quell'obiettivo servirà ad organizzare e misurare il meglio delle nostre energie e abilità, perché quella è una sfida che siamo disposti ad accettare, una che non siamo disposti a posticipare e una che intendiamo vincere" J.F.K</p>
-    </div>
+  <!-- VIDEO ATTERRAGGIO -->
+  <div class="poster mt-3">
+
+  <div class="hero hero--small">
+    <video autoplay loop id="video-back">
+        <source src="IL//atterraggio.mp4" type="video/mp4">
+    </video>
   </div>
+    <div class="poster__content reveal">
+      <h3 class="big-med-text">allunaggio</h3> 
+    </div>
+  </div>  
 
 <!-- FOOTER -->
   <footer class="footer">
