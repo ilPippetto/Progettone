@@ -116,7 +116,14 @@ li, a{
   
 }
 
-.logo-apollo img{
+.logo-apollo11 img{
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  
+}
+
+.logo-apollo17 img{
   z-index: 1;
   width: 80px;
   height: 80px;
@@ -254,6 +261,14 @@ li, a{
   padding: 100px 0;
   background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7)),
    url('IL//lunabg.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.bg-cover-apollo17{
+  display: flex;
+  padding: 100px 0;
+  background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7)),
+   url('IL//bg-apollo17.jpg') no-repeat center center;
   background-size: cover;
 }
 
