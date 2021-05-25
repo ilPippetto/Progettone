@@ -234,7 +234,7 @@ li, a{
   height: auto;
   width: 100%;
   align-items: center;
-  z-index: 20;
+  z-index: 0;
 }
 
 .poster__img{width: 65%; height: 100vh;}
