@@ -6,6 +6,8 @@ body{font-family: 'Roboto', sans-serif;font-size: 16px; background-color: #000;}
 
 .bb{background-color: black; height: 100px; width: 100%;}
 
+.bb-med{background-color: black; height: 60px; width: 100%;}
+
 a{text-decoration: none;}
 
 h1, h2, h3, h4, h5, p{color: #fff; padding-bottom: 30px;}
@@ -80,6 +82,7 @@ li, a{
 .big-text{font-size: 70px;font-weight: 900;}
 .big-med-text{font-size: 50px;font-weight: 900; text-transform: uppercase;}
 .med-text{font-size: 40px;}
+.med-text-1{font-size: 40px; margin-left: 50px; text-align: center; font-weight: 400;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
 
@@ -370,9 +373,31 @@ li, a{
 .content{max-width: 900px; margin: 40px auto;}
 
 
-
-
-
+/* TABELLA */
+.colore-tabella{
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  padding: 0px;
+}
+td{text-align: center; margin-top: 5px;}
+#Olimpiadi {
+  width: 600px;
+  height: 200px;
+}
+#Olimpiadi,
+#Olimpiadi th,
+#Olimpiadi td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#Olimpiadi th {
+  background-color:  #000080 ;
+  color: white;
+}
 
 
 
