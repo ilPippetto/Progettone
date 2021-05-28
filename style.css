@@ -97,19 +97,42 @@ li, a{
 
 /* BUTTON */
 .button:hover{
-  position: relative;
-  animation: mymove .5;
+  position:relative;
+  animation: scopri-di-piu 1s cubic-bezier(.03, .8, .56, 1.2) ;
 }
 
-@keyframes mymove {
-  from {top: 0px;}
-  to {
-    /* display: inline-block;
-    vertical-align: middle; */
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgb(0 0 0 / 0px);
+@keyframes scopri-di-piu{
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(0.9);
+  }
+
+  100%{
+    transform: scale(1);
   }
 }
+
+/* .button:hover{
+  cursor: pointer;
+  animation: scopri-di-piu 1s cubic-bezier(.02, .9, .58, 1) forwards;
+}
+
+@keyframes scopri-di-piu{
+  0% {
+    transform: scale(1);
+  }
+
+  20%{
+    transform: scale(0.9);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}  */
 
 .button{padding: 18px 28px; background: #000080; color:#fff; display: inline-block;border-radius: 4px;}
 /* ! Heder */
