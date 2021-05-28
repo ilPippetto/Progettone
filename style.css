@@ -90,8 +90,9 @@ li, a{
 
 .button{padding: 18px 28px; background: #000080; color:#fff; display: inline-block;border-radius: 4px}
 
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
+  .spazio{padding-top: 100px;}
   .big-text{font-size: 40px;}
 
 }
@@ -162,7 +163,7 @@ li, a{
   .cta{display: none;}
 
   .menu{position: absolute; top:0; right:-100%;background: #000;height: 100vh;padding-top: 80px;}
-  .menu li{display: block;}
+  .menu li{display: block; position: relative;}
   .menu li a{padding: 15px 30px;font-size: 20px;}
 
   .menu--open{right:0%;}
