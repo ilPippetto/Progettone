@@ -80,25 +80,39 @@ li, a{
 }
 
 .big-text{font-size: 70px;font-weight: 900;}
+.big-text-1{font-size: 70px;font-weight: 600; text-align: center; }
 .big-med-text{font-size: 50px;font-weight: 900; text-transform: uppercase;}
 .med-text{font-size: 40px;}
-.med-text-1{font-size: 40px; margin-left: 50px; text-align: center; font-weight: 400;}
+.med-text-1{font-size: 40px; margin-left: 50px; text-align: center; font-weight: 400px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
 
 .intro-text{font-size: 20px; font-style:italic}
 
-.button{padding: 18px 28px; background: #000080; color:#fff; display: inline-block;border-radius: 4px}
-
 @media (max-width: 768px) {
-
+  .spazio{padding-top: 100px;}
   .big-text{font-size: 40px;}
+  .big-text-1{font-size: 40px;}
+} 
 
+/* BUTTON */
+.button:hover{
+  position: relative;
+  animation: mymove .5;
 }
 
+@keyframes mymove {
+  from {top: 0px;}
+  to {
+    /* display: inline-block;
+    vertical-align: middle; */
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0px);
+  }
+}
 
-
-/* ! Header */
+.button{padding: 18px 28px; background: #000080; color:#fff; display: inline-block;border-radius: 4px;}
+/* ! Heder */
 
 .header{
   width: 100%;
@@ -162,7 +176,7 @@ li, a{
   .cta{display: none;}
 
   .menu{position: absolute; top:0; right:-100%;background: #000;height: 100vh;padding-top: 80px;}
-  .menu li{display: block;}
+  .menu li{display: block; position: relative;}
   .menu li a{padding: 15px 30px;font-size: 20px;}
 
   .menu--open{right:0%;}
@@ -406,8 +420,6 @@ td{text-align: center; margin-top: 5px;}
   background-color:  #000080 ;
   color: white;
 }
-
-
 
 
 
