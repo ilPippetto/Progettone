@@ -177,6 +177,18 @@ li, a{
   
 }
 
+.insta-img{
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+}
+
+.faceb-img{
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+}
+
 .menu{
   position: relative;
   transition: all 1s cubic-bezier(.215, .61, .355, 1);
