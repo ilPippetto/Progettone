@@ -353,7 +353,7 @@ li, a{
 
 /* ! Grid */
 
-.grid{display: flex; max-width: 1350px; padding: 0 30px;margin: 0 auto;}
+.grid{display: flex; max-width: 1350px; padding: 0 100px;margin: 0 auto;}
 .grid .col{width: 100%;}
 
 @media (max-width: 768px) {
@@ -422,7 +422,7 @@ li, a{
 
 .footer{
   background: #010e30;
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
 /* ! Content */
