@@ -353,7 +353,7 @@ li, a{
 
 /* ! Grid */
 
-.grid{display: flex; max-width: 1350px; padding: 0 100px;margin: 0 auto;}
+.grid{display: flex; max-width: 1350px; padding: 0 50px;margin: 0 auto;}
 .grid .col{width: 100%;}
 
 @media (max-width: 768px) {
@@ -442,6 +442,19 @@ li, a{
 }
 td{text-align: center; margin-top: 5px;}
 
+#Olimpiadi {
+  width: 100%;
+}
+#Olimpiadi,
+#Olimpiadi th,
+#Olimpiadi td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#Olimpiadi th {
+  background-color: #000080;
+  color: white;
+}
 
 
 /* ! Helpers */
