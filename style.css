@@ -104,10 +104,15 @@ li, a{
 /* BUTTON */
 .button:hover{
   position:relative;
-  animation: scopri-di-piu 1s cubic-bezier(.03, .8, .56, 1.2) ;
+  animation: scopri-di-piu-insta 1s cubic-bezier(.03, .8, .56, 1.2) ;
 }
 
-@keyframes scopri-di-piu{
+.insta-button:hover{
+  position:relative;
+  animation: scopri-di-piu-insta 1s cubic-bezier(.03, .8, .56, 1.2) ;
+}
+
+@keyframes scopri-di-piu-insta{
   0% {
     transform: scale(1);
   }
@@ -433,7 +438,7 @@ li, a{
   padding: 150px 0;
 }
 
-.footer-a{text-decoration: none;}
+a{color: white;}
 .text-footer{font-size: 30px; margin-left: 50px; font-weight: 400px;}
 
 /* ! Content */
