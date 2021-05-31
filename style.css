@@ -380,6 +380,9 @@ li, a{
 
 @media (max-width: 768px) {
   .grid{flex-wrap: wrap}
+  .col{flex-wrap: wrap;}
+  .footer-a{padding-left: 50px;}
+  .text-footer-nome{margin-top: 20px;}
 }
 
 /* ! Carousel */
@@ -450,7 +453,8 @@ li, a{
 }
 
 a{color: white;}
-.text-footer{font-size: 30px; margin-left: 50px; font-weight: 400px;}
+.text-footer-nome{font-size: 30px; margin-left: 50px; font-weight: 400px;}
+.text-footer-cognome{font-size: 30px; margin-left: 50px; font-weight: 400px;}
 
 /* ! Content */
 
