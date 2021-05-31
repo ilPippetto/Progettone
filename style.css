@@ -339,7 +339,7 @@ li, a{
   display: flex;
   padding: 100px 0;
   background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7)),
-   url('IM/mariner4-1.jpg') no-repeat center center;
+   url('IM/martebg-1.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -382,7 +382,7 @@ li, a{
   .grid{flex-wrap: wrap}
   .col{flex-wrap: wrap;}
   .footer-a{padding-left: 50px;}
-  .text-footer-nome{margin-top: 20px;}
+  .text-footer-nome{margin-top: 40px;}
 }
 
 /* ! Carousel */
