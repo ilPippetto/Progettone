@@ -2,6 +2,11 @@
 
 body{font-family: 'Roboto', sans-serif;font-size: 16px; background-color: #000;}
 
+iframe{
+  z-index: 1;
+  text-align: center;
+}
+
 .bw{background-color: #fff; height: 100px; width: 100%;}
 
 .bb{background-color: black; height: 100px; width: 100%;}
@@ -82,6 +87,7 @@ li, a{
 .big-text{font-size: 70px;font-weight: 900;}
 .big-text-1{font-size: 70px;font-weight: 600; text-align: center; }
 .big-med-text{font-size: 50px;font-weight: 900; text-transform: uppercase;}
+.big-med-text-mariner4{font-size: 50px;font-weight: 900; text-transform: uppercase; text-align: center;}
 .med-text{font-size: 40px;}
 .med-text-1{font-size: 40px; margin-left: 50px; text-align: center; font-weight: 400px;}
 .normal-text{font-size: 20px;}
