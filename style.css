@@ -323,7 +323,7 @@ li, a{
   display: flex;
   padding: 100px 0;
   background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0, 0.7)),
-   url('IL//lunabg.jpg') no-repeat center center;
+   url('IL/lunabg.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -365,6 +365,9 @@ li, a{
 
 @media (max-width: 768px) {
   .bg-cover{flex-wrap: wrap; height: auto;}
+  .bg-cover-mariner4{flex-wrap: wrap; height: auto;}
+  .bg-cover-marte{flex-wrap: wrap; height: auto;}
+  .bg-cover-jfk{flex-wrap: wrap; height: auto;}
   .bg-cover__text,
   .bg-cover__title{width: 100%;}
 }
