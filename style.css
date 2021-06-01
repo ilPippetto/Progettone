@@ -3,6 +3,7 @@
 body{font-family: 'Roboto', sans-serif;font-size: 16px; background-color: #000;}
 
 .iframe{z-index: 1; margin-left: 230px; margin-bottom: 200px;}
+
 .iframe-1{z-index: 1; text-align: center; margin-left: 50px;} 
 
 .bw{background-color: #fff; height: 100px; width: 100%;}
@@ -107,7 +108,9 @@ li:hover > .submenu {
   .big-text-1{font-size: 40px;}
 } 
 
-/* BUTTON */
+
+/* Button */
+
 .button:hover{
   position:relative;
   animation: scopri-di-piu-insta 0.8s cubic-bezier(.03, .8, .56, 1.2) ;
@@ -134,7 +137,9 @@ li:hover > .submenu {
 
 .button{padding: 18px 28px; background: #000080; color:#fff; display: inline-block;border-radius: 4px;}
 
-/* ! Heder */
+
+/* Heder */
+
 .header{
   width: 100%;
   position: fixed;
@@ -227,7 +232,8 @@ li:hover > .submenu {
 
 }
 
-/* ! Hero */
+
+/* Hero */
 
 .hero{
   position: relative;
@@ -283,7 +289,7 @@ li:hover > .submenu {
 }
 
 
-/* ! Poster */
+/* Poster */
 
 .poster{
   position: relative;
@@ -304,7 +310,9 @@ li:hover > .submenu {
   .poster__content{width: 100%;}
 }
 
+
 /* BG Cover */
+
 .bg-cover{
   display: flex;
   padding: 100px 0;
@@ -360,7 +368,9 @@ li:hover > .submenu {
   .bg-cover__title{width: 100%;}
 }
 
-/* ! Grid */
+
+/* Grid */
+
 .grid{display: flex; max-width: 1350px; padding: 0 50px;margin: 0 auto;}
 .grid .col{width: 100%;}
 
@@ -371,7 +381,9 @@ li:hover > .submenu {
   .text-footer-nome{margin-top: 40px;}
 }
 
-/* ! Carousel */
+
+/* Carousel */
+
 .main-carousel{padding: 40px 0;}
 
 .carousel-cell{
@@ -389,7 +401,9 @@ li:hover > .submenu {
   text-align: center;
 }
 
+
 /* Carousel-cell img */
+
 .carousel-cell2 {
   width: 100%;  /*full width*/ 
   height: 100%;
@@ -414,7 +428,9 @@ li:hover > .submenu {
   
 }
 
+
 /* Panel Blue */
+
 .panel-blue{background-image: url(altro//sfondogalassia.jpg); padding: 100px 30px;}
 .panel-galassia{background-image: url(Altro/sfondopallozzi.jpg); padding: 100px 30px;}
 .panel-blue__text{display: flex;align-items: center;}
@@ -428,7 +444,9 @@ li:hover > .submenu {
   margin-bottom: 40px;
 }
 
+
 /* Footer */
+
 .footer{
   background: #010e30;
   padding: 150px 0;
@@ -438,11 +456,14 @@ a{color: white;}
 .text-footer-nome{font-size: 30px; margin-left: 50px; font-weight: 400px;}
 .text-footer-cognome{font-size: 30px; margin-left: 50px; font-weight: 400px;}
 
-/* ! Content */
+
+/* Content */
+
 .content{max-width: 900px; margin: 40px auto;}
 
 
-/* TABELLA */
+/* Tabella */
+
 .colore-tabella{
   width: 600px;
   text-align: center;
@@ -470,18 +491,17 @@ td{text-align: center; margin-top: 5px;}
 }
 
 
-/* ! Helpers */
+/* Helpers */
+
 .mt-1{margin-top: 50px;}
 .mt-2{margin-top: 100px;}
 .mt-3{margin-top: 150px;}
 .tw{color:#fff}
 
-
 @media (max-width: 768px) {
   .mt-sma-0{margin-top: 0}
   .mb-sma-0{margin-bottom: 0}
 }
-
 
 *,
 *:before,
