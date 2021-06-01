@@ -2,9 +2,9 @@
 
 body{font-family: 'Roboto', sans-serif;font-size: 16px; background-color: #000;}
 
-.iframe{z-index: 1; margin-left: 230px; margin-bottom: 200px;}
+.iframe{z-index: 1; margin-left: 110px; margin-bottom: 100px;}
 
-.iframe-1{z-index: 1; text-align: center; margin-left: 50px;} 
+.iframe-1{z-index: 1; text-align: center; margin-left: 40px;} 
 
 .bw{background-color: #fff; height: 100px; width: 100%;}
 
