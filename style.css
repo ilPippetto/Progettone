@@ -110,12 +110,12 @@ li:hover > .submenu {
 /* BUTTON */
 .button:hover{
   position:relative;
-  animation: scopri-di-piu-insta 1s cubic-bezier(.03, .8, .56, 1.2) ;
+  animation: scopri-di-piu-insta 0.8s cubic-bezier(.03, .8, .56, 1.2) ;
 }
 
 .insta-button:hover{
   position:relative;
-  animation: scopri-di-piu-insta 1s cubic-bezier(.03, .8, .56, 1.2) ;
+  animation: scopri-di-piu-insta 0.8s cubic-bezier(.03, .8, .56, 1.2) ;
 }
 
 @keyframes scopri-di-piu-insta{
