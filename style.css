@@ -372,7 +372,6 @@ li:hover > .submenu {
 }
 
 /* ! Carousel */
-
 .main-carousel{padding: 40px 0;}
 
 .carousel-cell{
@@ -417,6 +416,7 @@ li:hover > .submenu {
 
 /* Panel Blue */
 .panel-blue{background-image: url(altro//sfondogalassia.jpg); padding: 100px 30px;}
+.panel-galassia{background-image: url(Altro/sfondopallozzi.jpg); padding: 100px 30px;}
 .panel-blue__text{display: flex;align-items: center;}
 .dot{
   height: 250px;width: 250px;
@@ -471,7 +471,6 @@ td{text-align: center; margin-top: 5px;}
 
 
 /* ! Helpers */
-
 .mt-1{margin-top: 50px;}
 .mt-2{margin-top: 100px;}
 .mt-3{margin-top: 150px;}
